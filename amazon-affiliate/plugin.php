@@ -19,7 +19,7 @@ function flo_amazonAffiliate($args) {
 	$tagFR = 'YOUR_TAG_HERE';
 	$tagES = 'YOUR_TAG_HERE';
 	$tagJP = 'YOUR_TAG_HERE';
-	$campaign = 'YOUR_CAMPAIGN_HERE';
+	$campaign = '';
 	
 	// get url from arguments; create dictionary with all regex patterns and their respective affiliate tag as key/value pairs
 	$url = $args[0];
@@ -43,7 +43,21 @@ function flo_amazonAffiliate($args) {
 
 			// redirect
 			header("HTTP/1.1 301 Moved Permanently");
-			header("Location: $url");
+			header("Refresh: 5; URL=$url");
+			?>
+			<center>
+ <h1>Going to Amazon.com....</h1>
+ Thank you for using my referral link.
+ <br>
+ <br>
+ If page does not redirect, <a href="<?php print "$url"; ?>">CLICK HERE.</a>
+
+    
+    
+    
+    
+</center>
+			<?
 			
 			// now die so the normal flow of event is interrupted
 			die();
