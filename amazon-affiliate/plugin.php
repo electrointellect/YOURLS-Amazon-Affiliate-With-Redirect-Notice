@@ -6,6 +6,8 @@ Description: Add your Amazon Affiliate-Tag to all Amazon URLs before redirection
 Version: 1.1
 Author: Florian Schliep
 Author URI: https://floschliep.com
+EDITED BY: Tyler Rheaume
+ADDED: Amazon Link Redirect Page
 */
 
 yourls_add_action('pre_redirect', 'flo_amazonAffiliate');
