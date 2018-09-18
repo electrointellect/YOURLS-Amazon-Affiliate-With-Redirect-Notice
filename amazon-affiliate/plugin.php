@@ -1,13 +1,14 @@
 <?php
 /*
-Plugin Name: Amazon Affiliate
-Plugin URI: https://github.com/floschliep/YOURLS-Amazon-Affiliate
-Description: Add your Amazon Affiliate-Tag to all Amazon URLs before redirection
-Version: 1.1
-Author: Florian Schliep
-Author URI: https://floschliep.com
+Plugin Name: Amazon Affiliate With Redirect Notice
+Plugin URI: https://github.com/Trsmoothie/YOURLS-Amazon-Affiliate-With-Redirect-Notice
+Description: Add your Amazon Affiliate-Tag to all Amazon URLs before redirection with a notice of Amazon link usage.
+Version: 1.0
 EDITED BY: Tyler Rheaume
+http://TylerRheaume.com
 ADDED: Amazon Link Redirect Page
+Original Author: Florian Schliep
+Original Author URI: https://floschliep.com
 */
 
 yourls_add_action('pre_redirect', 'flo_amazonAffiliate');
