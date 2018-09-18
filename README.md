@@ -1,12 +1,11 @@
 
-This version announces redirect, then redirects after 5 seconds.
 
 
-YOURLS-Amazon-Affiliate
+YOURLS-Amazon-Affiliate- With Redirection Notice
 =======================
 
 A YOURLS plugin which adds your Amazon Affiliate-Tag to all Amazon URLs before redirection.
-
+This version announces redirect, then redirects after 5 seconds.
 
 ## Supported Partner Programs
 This plugin supports `amazon.com`, `amazon.de`, `amazon.co.uk`, `amazon.fr`, `amazon.es` and `amazon.co.jp` URLs.
