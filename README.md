@@ -19,10 +19,18 @@ This plugin supports `amazon.com`, `amazon.de`, `amazon.co.uk`, `amazon.fr`, `am
 * Activate the `Amazon Affiliate` plugin
 
 ## Contact
+
+Origninal Plugin Creator:
 Florian Schliep
 
 *  [floschliep.com](http://floschliep.com)
 *  [@floschliep](https://twitter.com/floschliep/)
+
+Edited by Tyler Rheaume
+*  [TylerRheaume.com](http://tylerrheaume.com)
+*  [@TylerRheaume](https://twitter.com/tylerrheaume)
+
+
 
 ## License
 The Amazon Affiliate plugin is available under the MIT license. See the [LICENSE](https://github.com/floschliep/YOURLS-Amazon-Affiliate/blob/master/LICENSE) file for more information.
