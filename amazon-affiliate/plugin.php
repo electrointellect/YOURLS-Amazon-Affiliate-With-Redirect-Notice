@@ -8,7 +8,7 @@ EDITED BY: Tyler Rheaume
 http://TylerRheaume.com
 ADDED: Amazon Link Redirect Page
 Original Author: Florian Schliep
-Original Author URI: https://floschliep.com
+Original Author URL: https://floschliep.com
 */
 
 yourls_add_action('pre_redirect', 'flo_amazonAffiliate');
@@ -22,7 +22,7 @@ function flo_amazonAffiliate($args) {
 	$tagFR = 'YOUR_TAG_HERE';
 	$tagES = 'YOUR_TAG_HERE';
 	$tagJP = 'YOUR_TAG_HERE';
-	$campaign = '';
+	$campaign = 'CAMPAIGN HERE';
 	
 	// get url from arguments; create dictionary with all regex patterns and their respective affiliate tag as key/value pairs
 	$url = $args[0];
