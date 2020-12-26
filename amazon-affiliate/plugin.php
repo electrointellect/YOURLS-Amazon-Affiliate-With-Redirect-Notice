@@ -60,7 +60,7 @@ function flo_amazonAffiliate($args) {
     
     
 </center>
-			<?
+			<?php //Added php after <? so it doesn't cause a white screen internal server error 500 
 			
 			// now die so the normal flow of event is interrupted
 			die();
